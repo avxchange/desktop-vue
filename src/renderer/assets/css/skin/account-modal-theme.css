@@ -1,0 +1,291 @@
+span.float-left.receiver-address.content-data {
+    font-weight: 500;
+    color: #9e9e9e;
+}
+.share-modal-options.row {
+    margin-top: 42px;
+}
+/*SCROLL SKIN*/
+.scroll-skin {
+    overflow: hidden!important;
+    overflow-y: auto!important;
+	/*PROVIDE MIN-HEIGHT ON MAIN CLASS*/
+}
+.scroll-skin::-webkit-scrollbar {
+    display: block;
+    width: 10px;
+    border-radius: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.scroll-skin::-webkit-scrollbar-track { 
+    background: #191919; 
+    border-radius: 10px;
+} 
+.scroll-skin::-webkit-scrollbar-thumb {
+    background: #212121; 
+    border-radius: 10px;
+    display: block;
+}
+.scroll-skin::-webkit-scrollbar-thumb:hover {
+    background: #252525; 
+    border-radius: 10px;
+} 
+
+/*POPUP INNER WHITE*/
+.popup-inner-white {
+    max-width: 990px;
+    padding-left: 66px;
+    padding-right: 66px;
+    margin: 0 auto;
+    color: #000000;
+    background: #ffffff;
+}
+
+/*Popup*/
+.popup {
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: rgba(0, 0, 0, 0.75);
+	z-index: 99;    
+	font-family: 'Segoe UI';
+}
+
+.popup {
+	text-align: center;
+    overflow: scroll;
+}
+
+.popup:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	margin-right: -4px;
+	vertical-align: middle;
+}
+
+.popup-inner {
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+	position: relative;
+	max-width: 700px;
+	width: 90%;
+	padding: 40px;
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 1);
+	border-radius: 3px;
+	text-align: center;
+	background-color: #0c0c0c;
+	color: whitesmoke;
+	font-family: 'Segoe UI';
+    max-height: 605px;
+    overflow: hidden;
+}
+
+.popup-inner.popup-sent {
+    display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+	position: relative;
+    max-width: 700px;
+    padding: 5px;
+	width: 100% !important;
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 1);
+	border-radius: 3px;
+	text-align: center;
+	background-color: #191919;
+	color: whitesmoke;
+	font-family: 'Segoe UI';
+    max-height: 625px;
+    overflow: hidden;
+}
+
+.popup-inner h1 {
+    font-size: 27px;
+    font-weight: 400;
+}
+.popup-sent p {
+	font-size: 12px !important;
+    font-weight: 400 !important;
+    text-align: left;
+}
+
+.popup-inner p {
+	font-size: 24px;
+	font-weight: 400;
+}
+.popup-inner .popup-avx-logo {
+	width: 42px;
+}
+.popup-inner .popup-avx-logo-title {
+	margin-top: -6px;
+}
+.popup-inner .red-text {
+	color: #8f1d21;
+}
+.popup-inner .full-width {
+    width: 100%;
+}
+.popup-close {
+	width: 56px;
+    height: 34px;
+    display: inline-block;
+    position: absolute;
+    top: 17px;
+    right: 28px;
+    -webkit-transform: translate(50%, -50%);
+    transform: translate(50%, -50%);
+    border-radius: 100%;
+    background: transparent;
+}
+
+.popup-close:after,
+.popup-close:before {
+    content: "";
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    height: 2px;
+    width: 16px;
+    border-radius: 30px;
+    background: #ffffff;
+    transform: rotate(45deg);
+}
+
+.popup-close:after {
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.popup-close:hover, 
+.popup-close:hover {
+    transition: background-color 0.8s ease-out;
+    background: #cf000f;
+    text-decoration: #cf000f;
+    border-color: #cf000f;
+    border-radius: 0;
+}
+
+.popup .btn-danger {
+    background-color: #cf000f;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 0;
+}
+.popup-close:hover:after,
+.popup-close:hover::before {
+	background: #fff;
+}
+.wallet-infomation {
+    text-align: left;
+    font-size: 14px!important;
+    font-weight: 400;
+}
+.total-balance{
+
+}
+.input-holder {
+    margin-top: 35px;
+}
+.input-holder .amount-holder {
+    padding: 0 60px;
+}
+.input-holder .amount-holder #avxquantity {
+    width: 100%;
+    font-size: 40px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 0;
+    border-bottom: 1px solid #1f1f1f;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+.input-holder .amount-holder p {
+    margin: 20px 0; 
+	font-size: 17px;
+}
+.input-holder .wallet-info {
+	margin-top: 31px;
+}
+.input-holder .wallet-info input,
+.input-holder .wallet-info textarea {
+    width: 100%;
+    margin: 7px 0;
+    padding: 8px 12px;
+}
+
+.input-holder .wallet-info textarea {
+    margin-top: 10px;
+    height: 95px;
+}
+/*  */
+
+.disabled {
+    color: rgba(255, 255, 255, 0.596);
+    background-color: rgba(100, 33, 35, 0.788);
+}
+
+.wallet-info.sending-confirmation {
+    font-size: 14px !important;
+    height: auto;
+    border-bottom: solid 1px #1f1f1f;
+    padding-bottom: 45px;
+}
+
+#avxToSend {
+    width: 75%;
+    font-size: 40px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #1f1f1f;
+    text-align: center;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+#avxToSend::placeholder {
+    color: #ffffff;
+}
+
+#btnEdit {
+    background-color: transparent;
+    color: #fff;
+    width: 100px;
+    height: 44px;
+    line-height: 30px;
+    margin-right: 10px;
+}
+#btnEdit:hover {
+    color: white;
+}
+.content-data {
+    margin-left: -15px;
+    text-align: left;
+}
+.wallet-balance {
+    font-size: 16px;
+    color: #4b8823;
+    font-weight: 500;
+}
+input[type=checkbox] {
+    vertical-align: middle;
+    position: absolute;
+    bottom: 1px;
+}
+#txImage {
+width: 320px;
+}

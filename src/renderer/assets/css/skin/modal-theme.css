@@ -1,0 +1,2072 @@
+/*SCROLL SKIN*/
+.scroll-skin {
+    overflow: hidden!important;
+    overflow-y: auto!important; 
+	/*PROVIDE MIN-HEIGHT ON MAIN CLASS*/
+} 
+.scroll-skin::-webkit-scrollbar {
+    display: block;
+    width: 10px;
+    border-radius: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%; 
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.scroll-skin::-webkit-scrollbar-track { 
+    background: #111111; 
+    border-radius: 10px;
+    box-shadow: inset 0 0 8px grey; 
+}
+.scroll-skin::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+    display: block;
+}
+.scroll-skin::-webkit-scrollbar-thumb:hover {
+    background: #555555; 
+    border-radius: 10px;
+} 
+.file-details .col-lg-12{
+    text-align: left; 
+    padding: 0;
+}
+#btnCancel{
+    padding-top: 13px;
+    margin-right: 18px;
+    cursor: pointer;
+}
+.avx-pricing{
+   border-bottom: solid 1px #dcdcdc;
+    padding-bottom: 25px!important;
+    margin-bottom: 20px!important;
+}
+/*POPUP INNER WHITE*/
+.popup-inner-white {
+    max-width: 990px;
+    padding-left: 66px;
+    padding-right: 66px;
+    margin: 0 auto;
+    color: #000000;
+    background: #ffffff;
+    bottom: 0;
+    display: flow-root;
+    padding-top: 35px;
+}
+.file-details .col-md-12{
+    padding: 0;
+}
+.popup-inner-white a {
+    color: #000000;
+}
+.popup-inner-white #whiteP {
+    text-align: left;
+    font-size: 18px;
+    top: 15px;
+    position: relative;
+}
+.movie-prce-parent-label{
+    padding: 9px 24px;
+    font-size: 14px;
+    color: #6b6b6b;
+}
+.subt-label{
+    text-align: right;
+    font-weight: 700;
+    color: #ccc;
+}
+.avx-pricing .mt-5{
+        margin-top: 1rem!important;
+}
+.movie-prce-label{
+        float: right;
+}
+.popup-inner-white .priceAVX {
+    font-size: 32px;
+    float: right;
+    color: #cf000f;
+    text-align: right;
+    width: 100%;    
+	margin-bottom: 0px;
+}
+hr#hr {
+    width: 100%;
+    border-bottom: #111111;
+}
+/*Popup*/
+.popup {
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: rgba(0, 0, 0, 0.92);
+	z-index: 99;    
+    font-family: 'Segoe UI';
+    text-align: center;
+    overflow: scroll;
+}
+.popup:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	margin-right: -4px;
+	vertical-align: middle;
+}
+
+.popup-inner {
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+	position: relative;
+	max-width: 700px;
+	width: 90%;
+	padding: 40px;
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 1);
+	border-radius: 3px;
+	text-align: center;
+	background-color: #0c0c0c;
+	color: whitesmoke;
+	font-family: 'Segoe UI';
+    max-height: 625px;
+    overflow: hidden;
+	z-index: 999;
+}
+
+.popup-inner h1 {
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.popup-inner p {
+	font-size: 24px;
+	font-weight: 400;
+}
+.popup-inner .popup-avx-logo {
+	width: 42px;
+}
+.popup-inner .popup-avx-logo-title {
+	margin-top: -6px;
+}
+.popup-inner .red-text {
+	color: #ff000f;
+
+}
+.popup-inner .full-width {
+    width: 100%;
+}
+.popup-close {
+	width: 33px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    top: 21px;
+    right: 19px;
+    -webkit-transform: translate(50%, -50%);
+    transform: translate(50%, -50%);
+    border-radius: 100%;
+    background: transparent;
+}
+.popup-close-white {
+    
+    width: 56px;
+    height: 34px;
+    display: inline-block;
+    position: absolute;
+    top: 17px;
+    right: 28px;
+    -webkit-transform: translate(50%, -50%);
+    transform: translate(50%, -50%);
+    border-radius: 100%;
+    background: transparent;
+    
+}
+
+.popup-close:after,
+.popup-close:before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 9px;
+    height: 2px;
+    width: 16px;
+    border-radius: 30px;
+    background: #ffffff;
+    transform: rotate(45deg);
+}
+
+.popup-close:after {
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.popup-close:hover, 
+.popup-close:hover {
+    background: #cf000f;
+    text-decoration: #8f1d21;
+    border-color: #cf000f;
+    border-radius: 0;
+}
+.popup .btn-danger {
+    background-color: #cf000f;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.popup-close:hover:after,
+.popup-close:hover::before {
+	background: #fff;
+}
+
+/* Label with border as breaker */
+.popup .popup-inner h5.label-with-border {
+    color: #347b5d;
+    overflow: hidden;
+    text-align: left;
+    font-size: 13px;
+    padding-top: 37px;
+	width:	100%;
+    font-style: italic;
+}
+.popup .popup-inner h5.break-down {
+    color: #fff;
+    margin-bottom: 45px;
+
+}
+
+.popup .popup-inner h5.label-with-border:before,
+.popup .popup-inner h5.label-with-border:after {
+    background-color: #212121;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 0%;
+
+}
+
+.popup .popup-inner h5.label-with-border:before {
+    right: 0.5em;
+}
+
+.popup .popup-inner h5.label-with-border:after {
+    left: 11px;
+    margin-right: -31%;
+    width: 100%;
+}
+
+.popup .popup-inner .meta-data-details {
+    font-size: 15px;
+    text-align: left;
+    padding: 30px 40px;
+}
+.popup .popup-inner .meta-data-details select {
+    outline: none;
+    background: none;
+    color: red;
+    border: none;
+}
+
+/** Popup Modal for Share Scanning File **/
+.popup.scanning-file #stat {
+	margin-top: -201px;
+}
+.popup.scanning-file .popup-inner h4.title-label {
+	font-size: 19px;
+    padding-top: 124px;
+    font-weight: 400;
+    color: #c1c1c1;
+}
+.popup.scanning-file .popup-inner #stat {
+	margin-top: -200px;
+}
+.popup.scanning-file .popup-inner .mdi-48px.mdi:before {
+    font-size: 220px;
+}
+
+/** Popup Modal for Share Scan Result **/
+.popup.scan-result .popup-inner {
+    max-width: 990px;
+    padding-left: 66px;
+    padding-right: 66px;
+}
+.popup.scan-result .popup-inner  h1 {
+	text-align: left;    
+	font-size: 30px;
+    font-weight: 400;
+}
+.popup.scan-result .popup-inner .file-details.merge-file-details  h1 {
+	text-transform: capitalize;
+}
+.popup.scan-result .popup-inner  h1 span.mdi-file-outline::before {
+    font-size: 32px;
+}
+.popup.scan-result .popup-inner .file-scanned {
+    margin-top: 50px;
+}
+.popup.scan-result .popup-inner .file-scanned label.title {
+    display: block;
+	cursor: pointer;
+}
+.popup.scan-result .popup-inner .file-scanned p {
+    font-size: 15px;
+    text-align: left;
+    padding-left: 38px;
+}
+.popup.scan-result .popup-inner .file-details.merge-file-details  p {
+    text-transform: capitalize;
+    margin-bottom: 60px;
+}
+.popup.scan-result .popup-inner .file-scanned .title > p {
+    margin-bottom: 0;	
+	padding: 8px;
+}
+
+.popup.scan-result .popup-inner .file-scanned .title[action="close"] > p {
+    margin-bottom: -50px;
+}
+
+.popup.scan-result .popup-inner .file-scanned  p.selectable-asset-preview.open {
+	background: rgba(38, 37, 37, 0.42);
+}
+
+.popup.scan-result .popup-inner .file-scanned p span:before {
+    font-size: 23px;
+}
+.popup.scan-result .popup-inner .file-scanned p span.segoe-completed-solid:before,
+.popup.scan-result .popup-inner .file-scanned p span.segoe-repeat-all:before,
+.popup.scan-result .popup-inner .file-scanned p span.mdi-loading :before {
+    font-size: inherit;
+}
+.popup.scan-result .popup-inner .file-scanned .file-lists{
+	list-style-type:none;
+	padding-left: 32px;
+}
+.popup.scan-result .popup-inner .file-scanned .file-lists > p {
+    font-size: 12px;
+}
+.popup.scan-result .popup-inner .file-scanned .file-lists span:before{
+	font-size: 16px;
+}
+.popup.scan-result .popup-inner .file-scanned .icon-segoe{
+    margin: 5px;
+}
+.popup.scan-result .popup-inner p.file-dir-info {
+    text-align: left;
+    margin-top: 60px;
+    font-size: 15px;    
+    padding-bottom: 0px;
+}
+.popup.scan-result .popup-inner p.file-dir-info span.mdi-48px.mdi:before {
+    font-size: 26px;    
+	margin-top: -5px;
+}
+.popup.scan-result .popup-inner .share-modal-options {
+    margin: 35px 0 10px;
+    border-top: 1px #212121 solid;
+    padding-top: 33px;
+}
+.popup.scan-result .popup-inner .share-modal-options p {
+    text-align: left;
+}
+.popup.scan-result .popup-inner .share-modal-options .btn-default{
+    padding: 10px 32px;    
+}
+
+
+.popup.scan-result .popup-inner .file-details {
+	min-height: 32px;
+}
+.popup.scan-result .popup-inner .file-details .file-metadata {
+	width: 100%;
+}
+.popup.scan-result .popup-inner .file-details #claimThisAccount {
+	background: #252525;
+	font-size: 13px;
+}
+.popup.scan-result .popup-inner .file-details .file-feature-img {
+    min-height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    display: block;
+    vertical-align: middle;
+    background-position: center;
+	margin-bottom: 40px;
+}
+.popup.scan-result .popup-inner .file-details .file-movie-content{
+	margin: 20px 0;
+}
+
+.popup.scan-result .popup-inner .file-details .file-title .file-year {
+    display: block;
+    font-size: 16px;
+    padding: 6px 0;
+}
+.popup.scan-result .popup-inner .file-details .file-subdata{
+    text-align: left; 
+    font-size: 15px;	
+}
+
+.popup.scan-result .popup-inner .file-details .file-subdata strong {
+    background: rgb(237, 28, 36);
+    padding: 5px 12px;
+    margin: 10px 10px 10px 0px;
+}
+.popup.scan-result .popup-inner .file-details .file-subdata strong.resolution {
+    background: rgb(237, 28, 36);
+    padding: 5px 12px;
+    margin:  0px 10px 10px  0px;
+}
+.file-details .upper-section-data {
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.popup.scan-result .popup-inner .file-details .file-metadata-desc-tv {
+    padding: 0 15px;
+}
+
+.popup.scan-result .popup-inner .file-details .file-metadata-desc-tv p,
+.popup.scan-result .popup-inner .file-details .file-preview-desc-tv  p {
+    width: 100%;
+    text-align: left;
+    font-size: 15px;
+}
+.popup.scan-result .popup-inner .file-details .file-preview-desc-tv .eps-thumbnail{
+    background-image: url('http://tinyurl.com/y45jk2gf');
+    height: 185px;
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center;
+}
+.popup.scan-result .popup-inner .file-details .file-preview-desc-tv.audio-hide-dom {
+    display: block;
+    margin: 40px 0;
+}
+.popup.scan-result .popup-inner .file-details .file-metadata-desc-tv p.runtime span,
+.popup.scan-result .popup-inner .file-details .file-metadata-desc-tv p.no-eps span,
+.popup.scan-result .popup-inner .file-details .file-preview-desc-tv p.runtime span,
+.popup.scan-result .popup-inner .file-details .file-preview-desc-tv p.no-eps span {
+	width: 146px;
+    display: block;
+    float: left;
+}
+.popup.scan-result .popup-inner .file-details .file-metadata-desc-tv p.eps-desc,
+.popup.scan-result .popup-inner .file-details .file-preview-desc-tv p.eps-desc  {
+    color: #897e7e;
+}
+
+.popup.scan-result .popup-inner .file-details .file-metadata .file-actor-container{
+    display: block;
+    width: 100%;
+    min-height: 182px;
+}
+
+.payment-break-down ul li {
+    font-size: 14px;
+}
+
+.popup.scan-result .popup-inner .file-metadata span.resolution-data {
+    padding: 2px 5px 2px 5px;
+}
+
+.file-metadata.audio-subtitle {
+    margin: 0;
+    text-align: left;
+}
+
+.popup.scan-result .popup-inner .file-details .file-metadata.upper-section {
+	text-align: left;
+	padding: 22px 0;
+    width: 100%;
+    font-size: 12px;
+}
+
+.popup.scan-result .popup-inner .file-details .text-indent{
+	margin-left: 32px;
+	text-align: left;
+}
+
+.popup.scan-result .popup-inner .file-details .file-metadata p, 
+.popup.scan-result .popup-inner .file-details .file-metadata strong {
+    font-size: 15px;
+    float: left;
+    /*text-transform: capitalize;*/
+}
+
+
+.popup.scan-result .popup-inner .file-details .file-metadata p {
+	width: 110px;    
+	margin-bottom: 9px;
+}
+.popup.scan-result .popup-inner .file-details .file-metadata strong {
+	display: contents;    
+	text-align: left;
+    float: left;
+    display: block;
+    width: auto;
+}
+.popup.scan-result .popup-inner .file-details.merge-file-details .file-metadata p {
+    width: 15%;
+    margin-bottom: 9px;
+    text-align: left;
+}
+.popup.scan-result .popup-inner .file-details.merge-file-details .file-metadata strong {
+    display: block;
+    width: 75%;
+}
+.popup.scan-result .popup-inner .file-details .file-metadata p.full-width{
+	width: 100%;
+	padding: 0 12px;
+}
+.popup.scan-result .popup-inner .file-details .file-metadata p.full-width.metadata-desc{
+	padding: 0 12px 70px;
+}
+.popup.scan-result .popup-inner .file-details .file-metadata .file-actor {
+    padding: 0 25px;
+}
+.popup.scan-result .popup-inner .file-details .file-metadata .file-actor .file-actor-details {
+    text-align: center;
+	float: left;
+}
+.popup.scan-result .popup-inner .file-details .file-metadata .file-actor h3 {
+    font-size: 17px;	
+}
+
+.popup.scan-result .popup-inner .file-details .file-metadata .file-actor-heading{
+	margin-bottom: 36px;
+}
+
+.popup.scan-result .popup-inner .file-details .file-metadata .file-actor-content .file-actor-details .img {
+	height: 66px;
+    border-radius: 54px;
+    max-width: 273px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    display: block;
+    vertical-align: middle;
+    background-position: center;
+    width: 65px;
+}
+.popup.scan-result .popup-inner .file-details .file-metadata .file-actor-content .file-actor-details .name {
+	margin-top: 13px;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.popup.scan-result .popup-inner .file-details .file-metadata .file-actor-content .file-actor-details .role {
+    height: 22px;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    padding: 0 14px;
+}
+
+.popup.scan-result .popup-inner .file-details .file-metadata .file-movie-content .file-movie-details .img {
+    width: 100%;
+    display: block;
+    height: 148px;
+    background-size: cover;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+.popup.scan-result .popup-inner .file-details .file-metadata .file-movie-content .file-movie-details .img.active {
+	border: 2px solid red;
+}
+.popup.scan-result .popup-inner .file-details .file-metadata .file-movie-content .file-movie-details .img.active:before {
+    content: '\E73E';
+    color: white;
+    float: right;
+    top: -13px; 
+    position: relative;
+    background: red;
+    border-radius: 36px;
+    height: 26px;
+    width: 25px;
+    padding: 0px 5px;
+    right: -9px;
+    font-family: 'Segoemdl2';
+    font-weight: bolder;
+
+}
+.popup.scan-result .popup-inner .generateFileScanned {
+	max-height: 300px;
+    color: #ffffff;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+.popup.scan-result .popup-inner .generateFileScanned .file-scanned:not(:first-child) {
+	margin: 0;
+}
+
+.popup.scan-result .title-holder span{
+    margin-top: 4px;
+    margin-right: 8px;
+}
+.popup.scan-result .file-scanned .title .icon-segoe.float-left {
+	margin-top: -2px;
+}
+.popup.scan-result .file-scanned .file-lists .icon-segoe.float-left {
+	margin-top: 3px;
+	margin-right: 12px;
+}
+.popup.scan-result .file-scanned .file-lists .icon-segoe.segoe-info.float-left {
+	margin-left: -29px;
+	display:none;
+}
+.popup.scan-result .generateFileScanned [type="checkbox"] {
+	display: none;
+}
+
+.popup.scan-result[pd-popup="shareScanResultModal"] .generateFileScanned [type="checkbox"] {
+	display: block;
+}
+
+.popup.scan-result .file-scanned .title.toggleable .segoe-flick-up,
+.popup.scan-result .file-scanned .title.toggleable .segoe-flick-left {
+    margin-top: 1px;
+}
+.popup.scan-result .file-scanned .title.toggleable .segoe-flick-up:before,
+.popup.scan-result .file-scanned .title.toggleable .segoe-flick-left:before {
+    font-size: 13px;
+}
+
+/** Popup Modal for Validation File **/
+.popup .validation-event .popup-inner {
+    max-width: 720px;    
+	padding: 6px 6px!important;
+}
+.validation-event .popup-inner {
+    max-width: 720px;    
+	padding:6px 6px;
+}
+.popup.validation-event .popup-inner h4.title-label {
+	font-size: 19px;
+    padding-top: 124px;
+    font-weight: 400;
+    color: #c1c1c1;
+}
+.popup.validation-event .popup-inner #stat {
+	margin-top: -200px;
+}
+.popup.validation-event .popup-inner .mdi-48px.mdi:before {
+    font-size: 220px;
+}
+.counterLogin {
+    display: none;
+}
+#signupfailPopup {
+    margin-top: 50px !important;
+}
+
+#btnChkAgreement, #btnpasswordEmptyfail, #btnSignupemptyfail, #btnSignupfail, #btnLoginfail {
+    width: 150px;
+}
+ 
+/* NO PADDING POPUP */
+.popup-inner.no-border-popup {
+    padding: 0;	
+}
+.popup-inner.no-border-popup #txImage {
+    width: 100%;
+}
+.popup-inner.no-border-popup #confirmHeader {
+    margin-top: 48px;
+    font-size: 17px;
+     text-align: left;
+}
+.popup-inner.no-border-popup #confirmP {
+	font-size: 14px;
+    margin: 20px 0;
+    color: #888888;
+    text-align: left;
+}
+.popup-inner.no-border-popup #account-balance {
+    font-size: 22px;
+    color: #347b5d;
+    display: block;
+    text-align: left;
+    margin-bottom: 0px;
+}
+.popup-inner.no-border-popup #confirmPcurrent {
+    font-size: 12px;
+    display: block;
+    text-align: left;
+    font-size: 12px;
+}
+.popup-inner #btnWishlistClose {
+    width: 200px;
+}
+
+.popup-inner .padding-modal {
+	padding-top: 44px;
+    padding-left: 66px;
+    padding-right: 66px;
+}
+
+/*SCAN RESULTS */
+
+.popup[pd-popup="shareConfirmMetadataModal"] .popup-inner.scroll-skin:before {
+    /*content: url('https://tinyurl.com/ycjjsd24'); */
+    height: 100%;
+    filter: blur(30px);
+    width: 100%;
+    left: -10%;
+    background-repeat: repeat;
+    transform: scale(5);
+    position: absolute;
+    background-size: cover;
+    overflow: hidden;
+    opacity: 0.5;
+	z-index: -99;
+}
+.popup.validation-event#loginSuccessModal {
+    height: 150px;
+}
+
+
+.generateFileScanned.white-file-content .file-scanned:not(:first-child) {
+    margin: 0;
+}
+.generateFileScanned.white-file-content .file-lists {
+    padding: 15px 30px 0 30px;
+    list-style-type: none;
+}
+
+.popup [pd-popup="shareConfirmMetadataModal"] .carousel {
+    margin-bottom: 35px;
+}
+.popup [pd-popup="shareConfirmMetadataModal"] .popup-inner h5.label-with-border{
+    color: #ffffff;
+    overflow: hidden;
+    text-align: left;
+    font-size: 15px;
+    padding-top: 37px;
+    width: 100%;
+    padding-bottom: 37px;
+	font-weight: 700;
+}
+/* .generateFileScanned.white-file-content .file-lists {
+    list-style-type: none;
+} */
+.generateFileScanned.white-file-content .file-lists li p {
+    font-size: 12px;
+}
+.generateFileScanned.white-file-content #lineDivider {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    color: #484848 !important;
+}
+.generateFileScanned.white-file-content .btn {
+    font-size: 12px;
+    width: 100px;
+    height: 38px;
+    display: inline-block;
+    margin: 0;
+    /* line-height: 20px; */
+}
+.generateFileScanned.white-file-content #navBottom {
+    padding-top: 10%;
+}
+
+.validation-event .popup-view-files {
+    max-width: 500px;    
+	/* padding-left: 33px;
+    padding-right: 33px; */
+}
+.popup-view-files  {
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+	position: relative;
+	max-width: 600px;
+	width: 90%;
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 1);
+	border-radius: 3px;
+	text-align: center;
+	background-color: #272727;
+	color: whitesmoke;
+	font-family: 'Segoe UI';
+    max-height: 625px;
+    overflow: hidden;
+}
+/* .popup[pd-popup="viewFilesModalMovie"].validation-event {
+background-color: #000 !important;
+} */
+.popup[pd-popup="viewFilesModalMovie"].validation-event .popup-view-files .content-header {
+    padding: 15px 5px 15px 5px !important;
+    background: #000000;
+}
+.popup[pd-popup="viewFilesModalMovie"].validation-event .popup-view-files .popup-view-files-white {
+    background-color: #151515;
+    color: #888888;
+    height: 200px;
+    overflow-y: scroll;
+} 
+.popup[pd-popup="viewFilesModalMovie"].validation-event .popup-view-files .popup-view-files-white::-webkit-scrollbar {
+    display: none;
+ }
+
+ .popup[pd-popup="viewFilesModalTVShow"].validation-event .popup-view-files .content-header {
+    padding: 15px 5px 15px 5px !important;
+    background: #000000;
+}
+.popup[pd-popup="viewFilesviewFilesModalTVShowModalMovie"].validation-event .popup-view-files .popup-view-files-white {
+    background-color: #151515;
+    color: #888888;
+    height: 200px;
+    overflow-y: scroll;
+} 
+.popup[pd-popup="viewFilesModalTVShow"].validation-event .popup-view-files .popup-view-files-white::-webkit-scrollbar {
+    display: none;
+ }
+ 
+/* SLIDER */
+.popup-inner .carousel-control-next, .popup-inner .carousel-control-prev {
+    margin-top: 152px;
+    width: 100%;
+}
+.popup-inner .carousel-control-prev span {
+    float: right;
+    right: 42px;
+    position: absolute;
+}
+.popup-inner .carousel-control-next span {
+    float: right;
+    right: 0;
+    position: absolute;
+}
+
+/* TV SHOWS */
+ .popup-inner .tv-shows-content table {
+    margin: 30px 0;
+ }
+ .popup-inner .tv-shows-content table,
+ .popup-inner .tv-shows-content table p {
+    width: 100%;
+    font-size: 14px;
+	text-align: left;
+ }
+.popup-inner .tv-shows-content table td {
+	padding: 0 5px;
+	max-width: 180px;
+}
+.popup-inner .tv-shows-content table tbody {
+	display: block;
+    height: 200px;
+    width: 100%;
+}
+.popup-inner .tv-shows-content table tbody tr{
+    width: 100%;
+    display: block;
+    padding: 9px 0;
+}
+.popup-inner .tv-shows-content table tbody tr.active {
+    background: #2c2c2c;
+}
+.popup-inner .tv-shows-content table td  {
+    max-width: 119px;
+    padding: 0 21px;
+    min-width: 140px;
+}
+.popup-inner .tv-shows-content table td:nth-child(5) {
+    color: #40b082;
+    font-weight: bold;
+}
+
+.popup-inner .tv-shows-content table tr[verify="0"] td {
+    color: #cf000f;
+}
+
+.popup-inner.no-border-popup.view-files-modal-content {
+    max-width: 1190px;
+    padding-left: 25px; 
+    padding-right: 25px;
+    margin: 0 auto;
+    color: #ffffff;
+    background: #151515;
+}
+.popup-inner.no-border-popup.view-files-modal-content .row .col-lg-10 ul {
+    list-style-type: none;
+}
+
+.popup-inner.no-border-popup.view-files-modal-content .row .col-lg-10 ul li:not(:first-child):before {
+    content: " | ";
+}
+
+.popup-inner.no-border-popup.view-files-modal-content .row .col-lg-10 ul li {
+    display: inline;
+}
+ table {
+    font-size: 12px;
+}
+
+.popup[pd-popup="shareConfirmMetadataModal"] .tv-shows-content table td{
+    max-width: 100%;
+    padding: 0 21px;
+    min-width: 116px;
+}
+
+
+.file-payment-lists .section-line-divider {
+    border-bottom: 1px solid #555555;
+    height: 15px;
+}
+.file-payment-lists .section-line-divider span {
+    background-color: #0f0f0f;
+    /* padding: 5px 20px 5px; */
+}
+.file-payment-lists .section-line-divider .mdi-arrow-down-circle {
+    margin-right: -40px !important;
+}
+.file-payment-lists .section-line-divider span#fileTitle {
+    margin-left: -30px;
+} 
+/* $('[pd-popup="shareMarketPriceForMultipleModal"]').fadeIn(100); */
+.popup[pd-popup="shareMarketPriceForMultipleModal"] .popup-inner h5.label-with-border.white-title {
+	color: #ffffff;
+	font-style: normal;
+	padding-top: 0;
+}
+.popup[pd-popup="shareMarketPriceForMultipleModal"] .popup-inner h5.label-with-border.white-title .fileTitle{
+    text-transform: capitalize;
+    font-weight: 900;
+    position: absolute;
+    z-index: 9999;
+    background: #0f0f0f;
+    padding-right: 16px;
+    max-width: 675px;
+}
+.popup[pd-popup="shareMarketPriceForMultipleModal"] .popup-inner h5.label-with-border.white-title .icon-segoe{
+    position: absolute;
+    right: 47px;
+    cursor: pointer;
+}
+
+.popup[pd-popup="shareMarketPriceForMultipleModal"] .popup-inner h5.label-with-border.white-title .filePrice{
+    position: absolute;
+    right: 77px;
+    z-index: 999999;
+    padding-left: 16px;
+    font-size: 15px;
+    color: red;
+    font-weight: 700;
+    min-width: 95px;
+    margin-top: -14px;
+}
+
+.popup[pd-popup="shareMarketPriceForMultipleModal"] .file-metadata p{
+	width: 9%;
+	text-align: left;
+}
+.popup[pd-popup="shareMarketPriceForMultipleModal"] .file-metadata p.file-subdata strong.resolution {
+    margin: 0;
+    position: absolute;
+    padding: 3px 11px;
+    font-size: 13px;
+}
+.popup[pd-popup="shareMarketPriceForMultipleModal"] .file-metadata {
+    margin-bottom:  82px;
+}
+.popup[pd-popup="shareMarketPriceForMultipleModal"] .file-metadata  .graph-label {
+    font-size: 15px;
+    float: left;
+    position: relative;
+    margin-top: -57px;
+    margin-left: 22px;
+    font-weight: 600;
+}
+/*TREE*/
+.popup .file-scanned input[type="checkbox"] {
+    height: 16px;
+    float: left;
+    display: block;
+    position: inherit;
+    width: 30px;
+    margin-top: 9px;
+
+}
+.popup .file-scanned > .file-lists > li > p > input[type="checkbox"]{
+	   margin-left: -61px;
+}
+.popup.scan-result[pd-popup="shareScanResultModal"] .file-scanned .file-lists .icon-segoe.segoe-info.float-left {
+	display: block;
+}
+
+.popup.scan-result .file-scanned .file-lists .nofile  {
+	display: none;
+}
+.popup.scan-result[pd-popup="shareScanResultModal"] .file-scanned .file-lists .nofile  {
+	display: block;
+}
+.popup.scan-result .generateFileScanned .segoe-completed-solid,
+.popup.scan-result .generateFileScanned .mdi-spin{
+    float: left;
+	margin-left: 5px;
+}
+.popup.scan-result .generateFileScanned .segoe-label-status {
+	float: right;
+    margin-right: 116px;
+	color : #6a6a6a;
+}
+.file-details .avx-sign{
+         font-size: 18px;
+        color: #bfbfbf;
+        font-weight: 700;
+    }
+    #walletBalance{
+        font-size: 18px;
+        color: #bfbfbf;
+        font-weight: 700;
+    }
+
+@media (min-width: 2070px){
+    h5.label-with-border.white-title.header-separator {
+        width: 82%;
+    }
+}
+@media (min-width: 1700px) and (max-width: 2069px) {
+      h5.label-with-border.white-title.header-separator {
+        width: 82%;
+    }
+}
+@media (min-width: 1400px) and (max-width: 1699px) {
+
+      h5.label-with-border.white-title.header-separator {
+        width: 82%;
+    }
+}
+
+
+@media (min-width: 1240px) and (max-width: 1399px){
+      h5.label-with-border.white-title.header-separator {
+        width: 82%;
+    }
+    
+}
+@media (min-width: 1160px) and (max-width: 1239px){
+      
+      h5.label-with-border.white-title.header-separator {
+        width: 82%;
+    }
+
+ }
+@media (min-width: 1080px) and (max-width: 1159px) {
+     h5.label-with-border.white-title.header-separator {
+        width: 82%;
+    }
+}
+@media (min-width: 991px) and (max-width: 1079px) {
+    .popup.scan-result .popup-inner .file-details .file-feature-img {
+        min-height: 170px;
+        width: 100px;
+    }
+    .avx-btn-buy {
+        padding: 10px 30px;
+    }
+    h5.label-with-border.white-title.header-separator {
+        width: 82%;
+    }
+    .meta-data-details .col-4 {
+         flex: 0 0 43.333333%;
+         max-width: 53.333333%;
+    }
+
+}
+@media (min-width: 720px) and (max-width: 990px) {
+  
+    .popup .popup-inner h5.label-with-border{
+        display: inline-grid;
+    }
+    .popup .popup-inner h5.label-with-border:after{
+        left: 0px;
+        margin-top: 25px;
+    }
+    .popup .popup-inner .meta-data-details{
+        padding: 30px 0px;
+    }
+    .popup.scan-result .popup-inner .share-modal-options{
+        display: grid;
+    }
+    .share-modal-options .col-7{
+        max-width: 100%;
+    }
+     .share-modal-options .col-5{
+        max-width: 100%;
+        margin-top: 10%;
+    }
+    .share-modal-options .col-4{
+        flex: 0 0 73.333333%;
+        max-width: 93.333333%;
+        margin-top: 8%;
+        margin-left: 30px;
+    }
+     .popup.scan-result .popup-inner .file-details .file-feature-img{
+        height: 270px;
+        width: 180px;
+        float: left;
+    }
+     .popup.scan-result .popup-inner .file-details.merge-file-details .file-metadata p{
+        width: 100%;
+    }
+   
+    .meta-data-details .col-4{
+        flex: 0 0 43.333333%;
+        max-width: 53.333333%;
+    }
+    .share-modal-options .col-8{
+        flex: 0 0 96.666667%;
+        max-width: 96.666667%;
+    }
+
+    .popup.scan-result .popup-inner .file-details .file-metadata p{
+        margin-bottom: 10px;
+    }
+    .popup.scan-result .popup-inner .generateFileScanned{
+        margin-top: 8%;
+    }
+    .popup-inner .popup-avx-logo-title {
+         margin-top: -2px;
+         text-align: left;
+        font-size: 21px;
+    }
+    .popup-inner .padding-modal{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .fileTitle{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 222px;
+    }
+    .popup-inner .red-text {
+         color: #ff000f;
+         white-space: nowrap;
+         overflow: hidden;
+         text-overflow: ellipsis;
+         max-width: 315px;
+    }
+    .popup[pd-popup="shareMarketPriceForMultipleModal"] .popup-inner h5.label-with-border.white-title .icon-segoe{
+         right: 27px;
+    }
+    .filePrice{
+        right: 50px !important;
+        padding-right: 0px!important;
+    }
+    .file-metadata .col-12{
+        padding: 0;
+    }
+    .meta-data-details .col-8{
+        padding: 0;
+    }
+     .meta-data-details .col-4{
+        padding: 0;
+    }
+    .popup.scan-result .popup-inner .file-details .file-subdata strong.resolution{
+        margin: 0px 10px 10px 10px;
+    }
+    .popup[pd-popup="shareMarketPriceForMultipleModal"] .file-metadata {
+        margin-bottom: 9px;
+    }
+    .row.file-metadata.audio-lang {
+        padding-bottom: 100px;
+    }
+    canvas#surfaceFileDownloadCanvas {
+         padding-top: 55px;
+    }
+    .meta-data-details .col-8{
+        flex: 0 0 76.666667%;
+         max-width: 110.666667%;
+    }
+    strong.col-12.yearsreleased {
+        margin-left: 15px;
+    }
+    strong.col-12.resolution {
+         margin-left: 15px;
+    }
+    strong.col-12.usd-price {
+        margin-left: 18px;
+    }
+    strong.col-12.price {
+        margin-left: 65px;
+    }
+    .popup-inner-white .subt-label{
+         top: 57px;
+           text-align: left;
+        left: 160px;
+    }
+    .popup-inner-white .file-details{
+        float: left;
+    }
+    .file-details .col-lg-12{
+        text-align: right;
+    }
+    .popup-inner-white .priceAVX {
+        font-size: 26px;
+        text-align: left;
+       
+    }
+    .avx-pricing .col-8{
+        flex: 100%;
+         max-width: 100%;
+
+    }
+    .avx-pricing .col-4{
+        flex: 100%;
+         max-width: 100%;
+
+    }
+    .popup-inner-white .col-8{
+            flex: 100%;
+        max-width: 100%;
+    }
+    .popup-inner-white .col-4{
+            flex: 100%;
+        max-width: 100%;
+    }
+    .row.file-pricing {
+        margin-bottom: 45px;
+    }
+    .file-details .avx-sign{
+         font-size: 18px;
+        color: #bfbfbf;
+        font-weight: 700;
+    }
+    #walletBalance{
+        font-size: 18px;
+        color: #bfbfbf;
+        font-weight: 700;
+    }
+    #walletBalanceTV{
+        font-size: 18px;
+        color: #bfbfbf;
+        font-weight: 700;
+    }
+    #fileToDownload .col-sm-12{
+        flex:  100%;
+        max-width: 100%;
+    }
+   
+    #embededTrailer #trailerFrame{
+        width: 711px;
+        height: 400px;
+    }
+
+
+}
+@media (min-width: 680px) and (max-width: 719px) {
+    
+      .popup .popup-inner h5.label-with-border{
+        display: inline-grid;
+    }
+    .popup .popup-inner h5.label-with-border:after{
+        left: 0px;
+        margin-top: 25px;
+    }
+    .popup .popup-inner .meta-data-details{
+        padding: 30px 0px;
+    }
+    .popup.scan-result .popup-inner .share-modal-options{
+        display: grid;
+    }
+    .share-modal-options .col-7{
+        max-width: 100%;
+    }
+     .share-modal-options .col-5{
+        max-width: 100%;
+        margin-top: 10%;
+    }
+     .popup.scan-result .popup-inner .file-details .file-feature-img{
+        height: 280px;
+        width: 180px;
+        float: left;
+    }
+     h1.file-title {
+        margin-top: 6%;
+    }
+     .popup.scan-result .popup-inner .file-details.merge-file-details .file-metadata p{
+        width: 100%;
+    }
+   
+    .meta-data-details .col-4{
+        flex: 0 0 43.333333%;
+        max-width: 53.333333%;
+    }
+    .share-modal-options .col-8{
+        flex: 0 0 96.666667%;
+        max-width: 96.666667%;
+    }
+    .popup.scan-result .popup-inner .file-details .file-metadata p{
+        margin-bottom: 10px;
+    }
+    .popup.scan-result .popup-inner .generateFileScanned{
+        margin-top: 8%;
+    }
+    .popup-inner .popup-avx-logo-title {
+         margin-top: -2px;
+         text-align: left;
+        font-size: 21px;
+    }
+    .popup-inner .padding-modal{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .fileTitle{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 222px;
+    }
+    .popup-inner .red-text {
+         color: #ff000f;
+         white-space: nowrap;
+         overflow: hidden;
+         text-overflow: ellipsis;
+         max-width: 315px;
+    }
+    .file-metadata .col-12{
+        padding: 0;
+    }
+    .meta-data-details .col-8{
+        padding: 0;
+    }
+     .meta-data-details .col-4{
+        padding: 0;
+    }
+    .popup.scan-result .popup-inner .file-details .file-subdata strong.resolution{
+        margin: 0px 10px 10px 10px;
+    }
+    .popup[pd-popup="shareMarketPriceForMultipleModal"] .file-metadata {
+        margin-bottom: 9px;
+    }
+    .row.file-metadata.audio-lang {
+        padding-bottom: 100px;
+    }
+    canvas#surfaceFileDownloadCanvas {
+         padding-top: 55px;
+    }
+    .meta-data-details .col-8{
+        flex: 0 0 76.666667%;
+         max-width: 110.666667%;
+    }
+    strong.col-12.yearsreleased {
+        margin-left: 15px;
+    }
+    strong.col-12.resolution {
+         margin-left: 15px;
+    }
+    strong.col-12.usd-price {
+        margin-left: 18px;
+    }
+    strong.col-12.price {
+        margin-left: 65px;
+    }
+    .popup-inner-white .subt-label{
+         top: 57px;
+        text-align: center;
+        left: -30px;
+    }
+    .popup-inner-white .file-details{
+        float: left;
+    }
+    .file-details .col-lg-12{
+        text-align: right;
+    }
+    .avx-pricing .col-8{
+        flex: 100%;
+         max-width: 100%;
+
+    }
+    .avx-pricing .col-4{
+        flex: 100%;
+         max-width: 100%;
+
+    }
+    .popup-inner-white .col-8{
+            flex: 100%;
+        max-width: 100%;
+    }
+    .popup-inner-white .col-4{
+            flex: 100%;
+        max-width: 100%;
+    }
+    .row.file-pricing {
+        margin-bottom: 45px;
+    }
+    .file-details .avx-sign{
+        font-size: 18px;
+        color: #bfbfbf;
+        font-weight: 700;
+    }
+    /* WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW */
+    .walletBalance {
+        font-size: 18px;
+        color: #bfbfbf;
+        font-weight: 700;
+    }
+     #embededTrailer #trailerFrame{
+        width: 600px;
+        height: 343px;
+    }
+
+}
+@media (min-width: 650px) and (max-width: 679px) {
+  
+    .popup .popup-inner h5.label-with-border{
+        display: inline-grid;
+    }
+    .popup .popup-inner h5.label-with-border:after{
+        left: 0px;
+        margin-top: 25px;
+    }
+    .popup .popup-inner .meta-data-details{
+        padding: 30px 0px;
+    }
+    .popup.scan-result .popup-inner .share-modal-options{
+        display: grid;
+    }
+    .share-modal-options .col-7{
+        max-width: 100%;
+    }
+     .share-modal-options .col-5{
+        max-width: 100%;
+        margin-top: 10%;
+    }
+   .share-modal-options .col-4{
+        flex: 0 0 73.333333%;
+        max-width: 93.333333%;
+        margin-top: 8%;
+        margin-left: 30px;
+    }
+     .popup.scan-result .popup-inner .file-details .file-feature-img{
+        height: 280px;
+        width: 180px;
+        float: left;
+    }
+     h1.file-title {
+        margin-top: 6%;
+    }
+     .popup.scan-result .popup-inner .file-details.merge-file-details .file-metadata p{
+        width: 100%;
+    }
+   
+    .meta-data-details .col-4{
+        flex: 0 0 43.333333%;
+        max-width: 53.333333%;
+    }
+    .share-modal-options .col-8{
+        flex: 0 0 96.666667%;
+        max-width: 96.666667%;
+    }
+    .popup.scan-result .popup-inner .file-details .file-metadata p{
+        margin-bottom: 10px;
+    }
+    .popup.scan-result .popup-inner .generateFileScanned{
+        margin-top: 8%;
+    }
+    .popup-inner .popup-avx-logo-title {
+         margin-top: -2px;
+         text-align: left;
+        font-size: 21px;
+    }
+    .popup-inner .padding-modal{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .fileTitle{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 222px;
+    }
+    .popup-inner .red-text {
+         color: #ff000f;
+         white-space: nowrap;
+         overflow: hidden;
+         text-overflow: ellipsis;
+         max-width: 315px;
+    }
+    .popup[pd-popup="shareMarketPriceForMultipleModal"] .popup-inner h5.label-with-border.white-title .icon-segoe{
+         right: 27px;
+    }
+    .filePrice{
+        right: 50px !important;
+        padding-right: 0px!important;
+    }
+    .file-metadata .col-12{
+        padding: 0;
+    }
+    .meta-data-details .col-8{
+        padding: 0;
+    }
+     .meta-data-details .col-4{
+        padding: 0;
+    }
+    .popup.scan-result .popup-inner .file-details .file-subdata strong.resolution{
+        margin: 0px 10px 10px 10px;
+    }
+    .popup[pd-popup="shareMarketPriceForMultipleModal"] .file-metadata {
+        margin-bottom: 9px;
+    }
+    .row.file-metadata.audio-lang {
+        padding-bottom: 100px;
+    }
+    canvas#surfaceFileDownloadCanvas {
+         padding-top: 55px;
+    }
+    .meta-data-details .col-8{
+        flex: 0 0 76.666667%;
+         max-width: 110.666667%;
+    }
+    strong.col-12.yearsreleased {
+        margin-left: 15px;
+    }
+    strong.col-12.resolution {
+         margin-left: 15px;
+    }
+    strong.col-12.usd-price {
+        margin-left: 18px;
+    }
+    strong.col-12.price {
+        margin-left: 65px;
+    }
+    .popup-inner-white .subt-label{
+         top: 57px;
+        text-align: center;
+        left: -10px;
+    }
+    .popup-inner-white .file-details{
+        float: left;
+    }
+    .file-details .col-lg-12{
+        text-align: right;
+    }
+    /* .popup-inner-white #priceAVX {
+        font-size: 26px;
+        text-align: left;
+       
+    } */
+    .avx-pricing .col-8{
+        flex: 100%;
+         max-width: 100%;
+
+    }
+    .avx-pricing .col-4{
+        flex: 100%;
+         max-width: 100%;
+
+    }
+    .popup-inner-white .col-8{
+            flex: 100%;
+        max-width: 100%;
+    }
+    .popup-inner-white .col-4{
+            flex: 100%;
+        max-width: 100%;
+    }
+    .row.file-pricing {
+        margin-bottom: 45px;
+    }
+     #embededTrailer #trailerFrame{
+        width: 567px;
+        height: 323px;
+    }
+}
+@media (min-width: 600px) and (max-width: 649px) {
+    
+      .popup .popup-inner h5.label-with-border{
+        display: inline-grid;
+    }
+    .popup .popup-inner h5.label-with-border:after{
+        left: 0px;
+        margin-top: 25px;
+    }
+    .popup .popup-inner .meta-data-details{
+        padding: 30px 0px;
+    }
+    .popup.scan-result .popup-inner .share-modal-options{
+        display: grid;
+    }
+    .share-modal-options .col-7{
+        max-width: 100%;
+    }
+     .share-modal-options .col-5{
+        max-width: 100%;
+        margin-top: 10%;
+    }
+     .popup.scan-result .popup-inner .file-details .file-feature-img{
+        height: 280px;
+        width: 180px;
+        float: left;
+    }
+     h1.file-title {
+        margin-top: 6%;
+    }
+
+     .popup.scan-result .popup-inner .file-details.merge-file-details .file-metadata p{
+        width: 100%;
+    }
+   
+    .meta-data-details .col-4{
+        flex: 0 0 43.333333%;
+        max-width: 53.333333%;
+    }
+    .share-modal-options .col-8{
+        flex: 0 0 96.666667%;
+        max-width: 96.666667%;
+    }
+    .popup.scan-result .popup-inner .file-details .file-metadata p{
+        margin-bottom: 10px;
+    }
+    .popup.scan-result .popup-inner .generateFileScanned{
+        margin-top: 8%;
+    }
+    .popup-inner .popup-avx-logo-title {
+         margin-top: -2px;
+         text-align: left;
+        font-size: 21px;
+    }
+    .popup-inner .padding-modal{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .fileTitle{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 222px;
+    }
+    .popup-inner .red-text {
+         color: #ff000f;
+         white-space: nowrap;
+         overflow: hidden;
+         text-overflow: ellipsis;
+         max-width: 315px;
+    }
+    .popup[pd-popup="shareMarketPriceForMultipleModal"] .popup-inner h5.label-with-border.white-title .icon-segoe{
+         right: 27px;
+    }
+    .filePrice{
+        right: 50px !important;
+        padding-right: 0px!important;
+    }
+    .file-metadata .col-12{
+        padding: 0;
+    }
+    .meta-data-details .col-8{
+        padding: 0;
+    }
+     .meta-data-details .col-4{
+        padding: 0;
+    }
+    .popup.scan-result .popup-inner .file-details .file-subdata strong.resolution{
+        margin: 0px 10px 10px 10px;
+    }
+    .popup[pd-popup="shareMarketPriceForMultipleModal"] .file-metadata {
+        margin-bottom: 9px;
+    }
+    .row.file-metadata.audio-lang {
+        padding-bottom: 100px;
+    }
+    canvas#surfaceFileDownloadCanvas {
+         padding-top: 55px;
+    }
+    .meta-data-details .col-8{
+        flex: 0 0 76.666667%;
+         max-width: 110.666667%;
+    }
+    strong.col-12.yearsreleased {
+        margin-left: 15px;
+    }
+    strong.col-12.resolution {
+         margin-left: 15px;
+    }
+    strong.col-12.usd-price {
+        margin-left: 18px;
+    }
+    strong.col-12.price {
+        margin-left: 65px;
+    }
+    .popup-inner-white .subt-label{
+         top: 57px;
+        text-align: center;
+        left: 0px;
+    }
+    .popup-inner-white .file-details{
+        float: left;
+    }
+    .file-details .col-lg-12{
+        text-align: right;
+    }
+    /* .popup-inner-white #priceAVX {
+        font-size: 26px;
+        text-align: left;
+       
+    } */
+    .avx-pricing .col-8{
+        flex: 100%;
+         max-width: 100%;
+
+    }
+    .avx-pricing .col-4{
+        flex: 100%;
+         max-width: 100%;
+
+    }
+    .popup-inner-white .col-8{
+            flex: 100%;
+        max-width: 100%;
+    }
+    .popup-inner-white .col-4{
+            flex: 100%;
+        max-width: 100%;
+    }
+    .row.file-pricing {
+        margin-bottom: 45px;
+    }
+    #embededTrailer #trailerFrame{
+        width: 543px;
+        height: 303px;
+    }
+    
+
+}
+@media (min-width: 570px) and (max-width: 599px) {
+    .popup .popup-inner h5.label-with-border:after{
+        margin-top: 0px;
+        margin-right: -25%;
+    }
+    .popup .popup-inner h5.label-with-border{
+        display: inherit;
+    }
+    .popup .popup-inner h5.label-with-border:after{
+        left: 0px;
+        margin-top: 25px;
+    }
+    .popup .popup-inner .meta-data-details{
+        padding: 30px 0px;
+    }
+    .popup.scan-result .popup-inner .share-modal-options{
+        display: grid;
+    }
+    .share-modal-options .col-7{
+        max-width: 100%;
+    }
+     .share-modal-options .col-5{
+        max-width: 100%;
+        margin-top: 10%;
+    }
+    .popup.scan-result .popup-inner .file-details .file-feature-img{
+        min-height: 280px;
+        width: 180px;
+        float: left;
+        min-height: 270px!important;
+    }
+        h1.file-title {
+        margin-top: 6%;
+    }
+        .file-rating{
+        margin: 10px 10px 10px 0px;
+    }
+    .popup.scan-result .popup-inner .file-details.merge-file-details .file-metadata p{
+        width: 100%;
+    }
+   
+    .meta-data-details .col-4{
+        flex: 0 0 43.333333%;
+        max-width: 53.333333%;
+    }
+    .share-modal-options .col-8{
+        flex: 0 0 96.666667%;
+        max-width: 96.666667%;
+    }
+    .popup.scan-result .popup-inner .file-details .file-metadata p{
+        margin-bottom: 10px;
+    }
+    .popup.scan-result .popup-inner .generateFileScanned{
+        margin-top: 8%;
+    }
+    .popup-inner .popup-avx-logo-title {
+         margin-top: -2px;
+         text-align: left;
+        font-size: 21px;
+    }
+    .popup-inner .padding-modal{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .fileTitle{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 222px;
+    }
+    .popup-inner .red-text {
+         color: #ff000f;
+         white-space: nowrap;
+         overflow: hidden;
+         text-overflow: ellipsis;
+         max-width: 315px;
+    }
+    .popup[pd-popup="shareMarketPriceForMultipleModal"] .popup-inner h5.label-with-border.white-title .icon-segoe{
+         right: 27px;
+    }
+    .filePrice{
+        right: 50px !important;
+        padding-right: 0px!important;
+    }
+    .file-metadata .col-12{
+        padding: 0;
+    }
+    .meta-data-details .col-8{
+        padding: 0;
+    }
+     .meta-data-details .col-4{
+        padding: 0;
+    }
+    .popup.scan-result .popup-inner .file-details .file-subdata strong.resolution{
+        margin: 0px 10px 10px 10px;
+    }
+    .popup[pd-popup="shareMarketPriceForMultipleModal"] .file-metadata {
+        margin-bottom: 9px;
+    }
+    .row.file-metadata.audio-lang {
+        padding-bottom: 100px;
+    }
+    canvas#surfaceFileDownloadCanvas {
+         padding-top: 55px;
+    }
+    .meta-data-details .col-8{
+        flex: 0 0 76.666667%;
+         max-width: 110.666667%;
+    }
+    strong.col-12.yearsreleased {
+        margin-left: 30px;
+    }
+    strong.col-12.resolution {
+         margin-left: 30px;
+    }
+    strong.col-12.usd-price {
+        margin-left: 18px;
+    }
+    strong.col-12.price {
+        margin-left: 65px;
+    }
+    .popup-inner-white .subt-label{
+         top: 57px;
+        text-align: center;
+        left: 20px;
+    }
+    .popup-inner-white .file-details{
+        float: left;
+    }
+    .file-details .col-lg-12{
+        text-align: right;
+    }
+    .avx-pricing .col-8{
+        flex: 100%;
+         max-width: 100%;
+
+    }
+    .avx-pricing .col-4{
+        flex: 100%;
+         max-width: 100%;
+
+    }
+    .popup-inner-white .col-8{
+            flex: 100%;
+        max-width: 100%;
+    }
+    .popup-inner-white .col-4{
+            flex: 100%;
+        max-width: 100%;
+    }
+    .row.file-pricing {
+        margin-bottom: 45px;
+    }
+
+    #embededTrailer #trailerFrame{
+        width: 473px;
+        height: 273px;
+    }
+   
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TV SHOW TV SHOW TV SHOW TV SHOW TV SHOW TV SHOW TV SHOW TV SHOW TV SHOWTV SHOW TV SHOW  */
+.popup .popup-inner h5.label-with-border-tv-series {
+    /* color: #347b5d; */
+    overflow: hidden;
+    text-align: left;
+    font-size: 13px;
+    padding-top: 37px;
+	width:	100%;
+    font-style: italic;
+}
+
+.popup .popup-inner h5.label-with-border-tv-series:before,
+.popup .popup-inner h5.label-with-border-tv-series:after {
+    background-color: #212121;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative; 
+    vertical-align: middle;
+    width: 0%;
+
+}
+
+.popup[pd-popup="shareMarketPriceForMultipleModalTVShow"] .popup-inner h5.label-with-border-tv-series.white-title.tv-series {
+	color: #ffffff;
+	font-style: normal;
+	padding-top: 0;
+}
+.popup[pd-popup="shareMarketPriceForMultipleModalTVShow"] .popup-inner h5.label-with-border-tv-series.white-title.tv-series .tvseriesTitle{
+    font-weight: 900;
+    position: absolute;
+    z-index: 9999;
+    background: #0f0f0f;
+    padding-right: 16px;
+    max-width: 675px;
+}
+.popup[pd-popup="shareMarketPriceForMultipleModalTVShow"] .popup-inner h5.label-with-border-tv-series.white-title.tv-series .icon-segoe{
+    position: absolute;
+    right: 47px !important;
+}
+
+.popup[pd-popup="shareMarketPriceForMultipleModalTVShow"] .popup-inner h5.label-with-border-tv-series.white-title.tv-series .filePrice{
+    position: absolute;
+    right: 77px !important;
+    background: #0f0f0f;
+    z-index: 999999;
+    padding-left: 16px;
+    font-size: 15px;
+    color: red;
+    font-weight: 700;
+    min-width: 95px;
+    margin-top: -14px;
+}
+
+.popup[pd-popup="shareMarketPriceForMultipleModalTVShowSingle"] .popup-inner h5.label-with-border-tv-series.white-title.tv-series {
+	color: #ffffff;
+	font-style: normal;
+	padding-top: 0;
+}
+.popup[pd-popup="shareMarketPriceForMultipleModalTVShowSingle"] .popup-inner h5.label-with-border-tv-series.white-title.tv-series .tvseriesTitle{
+    font-weight: 900;
+    position: absolute;
+    z-index: 9999;
+    background: #0f0f0f;
+    padding-right: 16px;
+    max-width: 675px;
+}
+.popup[pd-popup="shareMarketPriceForMultipleModalTVShowSingle"] .popup-inner h5.label-with-border-tv-series.white-title.tv-series .icon-segoe{
+    position: absolute;
+    right: 47px !important;
+}
+
+.popup[pd-popup="shareMarketPriceForMultipleModalTVShowSingle"] .popup-inner h5.label-with-border-tv-series.white-title.tv-series .filePrice{
+    position: absolute;
+    right: 77px !important;
+    background: #0f0f0f;
+    z-index: 999999;
+    padding-left: 16px;
+    font-size: 15px;
+    color: red;
+    font-weight: 700;
+    min-width: 95px;
+    margin-top: -14px;
+}
+.popup .popup-inner h5.label-with-border-tv-series:before {
+    right: 0.5em;
+}
+
+.popup .popup-inner h5.label-with-border-tv-series:after {
+    left: 11px;
+    margin-right: -31%;
+    width: 100%;
+}
+.popup[pd-popup="shareMarketPriceForMultipleModalTVShowSingle"] .popup-inner .meta-data-tvseries .meta-data-details-size {
+    font-size: 13px !important;
+}
+.popup[pd-popup="trailerModal"] .popup-inner.scroll-skin  {
+    max-width: 720px;
+    background-color: #000;
+}
+/*  */
+.popup[pd-popup="shareMarketPriceForMultipleModalAudio"] .popup-inner p {
+    font-size: 12px;
+}
+
+
+.popup[pd-popup="shareMarketPriceForMultipleModalAudio"] .popup.scan-result .popup-inner .padding-modal .file-details .metadata-music-audio .file-subdata{
+    text-align: left; 
+    font-size: 15px;	
+}
+
+.popup[pd-popup="shareMarketPriceForMultipleModalAudio"] .popup.scan-result .popup-inner .padding-modal .file-details .metadata-music-audio .file-subdata strong {
+    background: rgb(237, 28, 36);
+    padding: 1px 12px;
+    margin: 10px 10px 10px 0px;
+}
+.popup[pd-popup="shareMarketPriceForMultipleModalAudio"] .popup.scan-result .popup-inner .padding-modal .file-details .metadata-music-audio .file-subdata strong.resolution {
+    background: rgb(237, 28, 36);
+    padding: 5px 12px;
+    margin:  0px 10px 10px  0px;
+}
+.popup[pd-popup="shareMarketPriceForMultipleModalAudio"] .metadata-music-audio {
+    font-size: 12px;
+}
+.popup[pd-popup="shareMarketPriceForSingleModalAudio"] .popup-inner p {
+    font-size: 12px;
+}
