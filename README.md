@@ -5,6 +5,8 @@
 #### Build Setup
 
 ``` bash
+# Vue CLI
+npm install -g @vue/cli
 # install dependencies
 npm install
 
